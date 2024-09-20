@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ED43C4EB-7F5A-F53C-B410-F580428A633D" name="Kolekcija">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 00:55:56 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="B92E3DD4-C390-A9A1-F89B-F22AF109FCCF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<discriminatorAttributeID>4089C7CD-5020-E8E7-EC10-3CBBFBA11CC5</discriminatorAttributeID>
+<completeSubtypes>true</completeSubtypes>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_kolekcije" id="CAB82502-1EFC-2EE9-9AFF-7AE30108A233">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 00:56:03 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="B92E3DD4-C390-A9A1-F89B-F22AF109FCCF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv_kolekcije" id="AC246A2C-2B92-D25F-E531-C0082F6F6820">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 00:56:21 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="B92E3DD4-C390-A9A1-F89B-F22AF109FCCF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="godina_kolekcije" id="87F2C33B-3AE5-1975-AB3B-B853FD71022B">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 00:56:38 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="B92E3DD4-C390-A9A1-F89B-F22AF109FCCF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="izdavac_kolekcije" id="55A6F462-00B1-F803-530D-579EEA34C6A7">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 00:56:51 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="B92E3DD4-C390-A9A1-F89B-F22AF109FCCF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tip_kolekcije" id="4089C7CD-5020-E8E7-EC10-3CBBFBA11CC5">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 00:57:05 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="B92E3DD4-C390-A9A1-F89B-F22AF109FCCF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>35BD6301-928A-E47E-E3B4-4093B9B60BF5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_kolekcije1" id="40C8B854-8D5C-AE3B-4916-E474D4BC2999">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 00:58:00 UTC</createdTime>
+<generatorID>329625D6-DBE2-F2C9-50EC-B43F89C07B1D</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="B92E3DD4-C390-A9A1-F89B-F22AF109FCCF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>CAB82502-1EFC-2EE9-9AFF-7AE30108A233</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="981EE6B5-49CA-0F6B-590C-3DCD0DA6AFF7" name="Kolekcija PK">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 00:56:16 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="B92E3DD4-C390-A9A1-F89B-F22AF109FCCF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CAB82502-1EFC-2EE9-9AFF-7AE30108A233</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

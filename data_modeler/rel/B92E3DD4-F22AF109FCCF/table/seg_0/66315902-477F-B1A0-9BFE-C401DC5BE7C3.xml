@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66315902-477F-B1A0-9BFE-C401DC5BE7C3" name="Album">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>1EBCD5CF-82D9-0D0A-F678-53395D4E7C14</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_albuma" id="5B9F762C-F538-8FA1-996B-D6AE7DB94D8B">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>882F0BB5-75A9-B377-0F13-42B201B5515B</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv_albuma" id="7918ED68-9807-2B52-EE19-C609BEB87D94">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>4289D308-7DA8-1F15-A12D-B4302358972A</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tematika_albuma" id="D7CF590E-B993-57EE-DD09-E60758FC1D0C">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>B0377517-340B-87C1-D8BB-DDF7C2188A12</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="godina_albuma" id="7DD633AF-D96E-C723-8E77-FE11975A4443">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>26DF1F92-709A-DB11-A1D3-03117EB6B9E3</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="izdavac_albuma" id="D3779AD5-496D-346A-E5B1-0E011E70CC0F">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>31219B02-E3EF-2DE3-CA85-89D3B4B0FD68</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="broj_slicica" id="691370D1-BA7B-80D9-A1AD-5EBDB8A9E25F">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>C13DDC71-1F6A-E4B1-3602-45533A80CB79</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="broj_strana" id="8B957777-87BE-CC29-6E16-E80F25664E0F">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>7A4F7CD3-6280-3E29-0250-D4C2C8DD269E</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F79C516F-0E77-3A4A-F935-EAE205AB10AD" name="Album_PK">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>4335879D-87F2-6829-36DB-65800F2B619C</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B9F762C-F538-8FA1-996B-D6AE7DB94D8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

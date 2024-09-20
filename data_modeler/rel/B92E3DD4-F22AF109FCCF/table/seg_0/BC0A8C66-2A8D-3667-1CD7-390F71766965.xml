@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BC0A8C66-2A8D-3667-1CD7-390F71766965" name="sakuplja">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_osobe" id="8347382B-1909-37B9-3309-22658D0CB02A">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E17BA69B-3AFE-ED42-C292-12DEF362BB7E" referredColumn="3AEE669E-4E26-6ACB-3F7E-AAEAD2E003D8"/>
+</associations>
+</Column>
+<Column name="id_stikera" id="D7AB572C-0B0A-FEB0-A1EC-4821A487731A">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E6483F5C-19DC-5BA6-28C2-D41D7B53B932" referredColumn="F45B2BBA-72B8-EA1B-CCB3-42BC14C11844"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC8D295D-CD0E-9530-5418-35CC678654E5" name="sakuplja_PK">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8347382B-1909-37B9-3309-22658D0CB02A"/>
+<colUsage columnID="D7AB572C-0B0A-FEB0-A1EC-4821A487731A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F76DB9D0-7863-BB2D-9502-FA9044D29B7B" name="sakuplja_Osoba_FK">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>4730E01F-4701-DE80-7A5C-A7F56180BE1A</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8347382B-1909-37B9-3309-22658D0CB02A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4D65E28-B6B7-0B66-20AC-D1AF3E7BD541" name="sakuplja_Stiker_FK">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>4730E01F-4701-DE80-7A5C-A7F56180BE1A</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7AB572C-0B0A-FEB0-A1EC-4821A487731A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

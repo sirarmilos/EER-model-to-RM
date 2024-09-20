@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9756DE37-BA34-8AD1-B086-ADC7404339E9" name="Slicica">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>B98E9C10-EEC7-D446-0FB7-B6ECE71EFB68</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_slicice" id="AA18F68E-44B1-3EC7-512F-9CACFF73CC22">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>CA4BB66F-D36D-278A-ECC2-D2DB0A0F5E19</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv_slicice" id="6A259A40-C53D-F236-4327-D6EDB4EBA26F">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>807E15B1-AF03-0FAC-01ED-B48A6E7C4ABA</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis_slicice" id="0F8ECDDB-EA54-360B-30E9-F4EFEE83A41A">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>BE02B934-FF57-BB3B-F3E0-A8F16030E9FA</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_albuma" id="69945DBE-8123-7801-E7C5-F8953893C20A">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>7A7D718A-3843-DCE6-1E15-D4DD257CCFA8</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04737A3C-E1B0-A19D-7714-8C820B0D888D" referredColumn="5B9F762C-F538-8FA1-996B-D6AE7DB94D8B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B051CD7C-E14C-4165-E150-06B7B76F94D0" name="Slicica_PK">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>04446611-A8D0-EF0B-5599-3A1049E8D2B6</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA18F68E-44B1-3EC7-512F-9CACFF73CC22"/>
+<colUsage columnID="69945DBE-8123-7801-E7C5-F8953893C20A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F8205AD-ACF3-49AB-FAE7-E0FAB0635ED7" name="Slicica_Album_FK">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>75B55098-9D2D-3BA9-E4DA-960DFA511577</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69945DBE-8123-7801-E7C5-F8953893C20A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

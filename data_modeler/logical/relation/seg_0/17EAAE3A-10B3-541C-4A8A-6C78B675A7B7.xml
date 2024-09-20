@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="prikuplja" directorySegmentName="seg_0" id="17EAAE3A-10B3-541C-4A8A-6C78B675A7B7">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:19:00 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="B92E3DD4-C390-A9A1-F89B-F22AF109FCCF" value="true"/>
+</engineerTo>
+<sourcePk>4AB058F7-7B32-DA73-22C0-97926326B423</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>58D62FC7-B858-BB11-20C5-5B7EADF9E11A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1EBCD5CF-82D9-0D0A-F678-53395D4E7C14</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E6483F5C-19DC-5BA6-28C2-D41D7B53B932" containerWithKeyObject="BC0A8C66-2A8D-3667-1CD7-390F71766965" localFKIndex="E4D65E28-B6B7-0B66-20AC-D1AF3E7BD541" name="sakuplja_Stiker_FK">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>4730E01F-4701-DE80-7A5C-A7F56180BE1A</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<referredTableLongName>Stiker</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8EB903FE-37BA-BA08-6FC1-BF7F3D580DDD</referredTableID>
+<keyObject>AD35CBAB-AF06-D908-1291-07F9A8692802</keyObject>
+<referredKeyID>AD35CBAB-AF06-D908-1291-07F9A8692802</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_stikera</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

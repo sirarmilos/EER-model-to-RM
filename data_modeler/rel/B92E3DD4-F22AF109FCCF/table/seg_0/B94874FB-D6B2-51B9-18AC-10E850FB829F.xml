@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B94874FB-D6B2-51B9-18AC-10E850FB829F" name="Kombi">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>70022EBE-5DDC-F5D9-5B01-640C780AB5FE</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_vozila" id="5EC832AF-5B55-DEF2-18F0-A1A9E562755F">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>A0A1BC40-5B36-3255-B5F0-9BE1F154525A</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="01680218-8F4A-671E-EDA0-D39BEDE383B1" referredColumn="D357E622-4295-8A14-1103-EC478045381A"/>
+</associations>
+</Column>
+<Column name="otvaranje_zadnjeg_dela" id="64C3B6AC-3536-D25D-ECF8-B251CFB8FCC1">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>5C2AC173-55A6-2992-7B3B-DCFCB958C1E5</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7EBBCDC3-B26B-6577-E2E9-074E077BDB2E" name="Kombi_PK">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>8D26F9B4-95A9-5D74-FEA8-D4B456B20B58</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5EC832AF-5B55-DEF2-18F0-A1A9E562755F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8CD44E6D-081B-302D-653C-D1F6D5005AA3" name="Kombi_Vozilo_FK">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>36E30697-DC17-C4C5-F2B4-5F5333999FA6</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5EC832AF-5B55-DEF2-18F0-A1A9E562755F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

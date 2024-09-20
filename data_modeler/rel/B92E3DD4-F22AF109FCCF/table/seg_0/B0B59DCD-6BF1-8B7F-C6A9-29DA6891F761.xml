@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B0B59DCD-6BF1-8B7F-C6A9-29DA6891F761" name="Kolekcija_vozila">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>969E88E7-AAEA-061A-469A-09C9FE888F3F</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_kolekcije" id="D68B75F4-426B-1AF4-3981-D5F195258CA7">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>CAB82502-1EFC-2EE9-9AFF-7AE30108A233</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72F7A46B-CE96-443B-DED8-7E75D373F699" referredColumn="272CC713-295F-23EC-244F-8C2F5A60545F"/>
+</associations>
+</Column>
+<Column name="ukupan_broj_vozila" id="0CB73C66-67B5-5D0B-C582-346B2781EDAB">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>AC996CC4-52DA-BF06-7FD8-AEC482A76137</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DC033644-998D-86EC-0870-523BE06A185C" name="Kolekcija_vozila_PK">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>981EE6B5-49CA-0F6B-590C-3DCD0DA6AFF7</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D68B75F4-426B-1AF4-3981-D5F195258CA7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8ABBA85-69E1-B6CD-4524-0EE587ECA821" name="Kolekcija_vozila_Kolekcija_FK">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>9E9E2CEC-9EE5-34E1-EB2B-5C0737C256B4</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D68B75F4-426B-1AF4-3981-D5F195258CA7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

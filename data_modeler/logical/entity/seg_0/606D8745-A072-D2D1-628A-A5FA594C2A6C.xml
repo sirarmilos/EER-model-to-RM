@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="606D8745-A072-D2D1-628A-A5FA594C2A6C" name="Nagrada">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:25:09 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="B92E3DD4-C390-A9A1-F89B-F22AF109FCCF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_nagrade" id="5F73DDDD-BBA8-D8D2-7E5F-75E9020A3D17">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:25:17 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="B92E3DD4-C390-A9A1-F89B-F22AF109FCCF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv_nagrade" id="F5B9F394-2A0F-BCCF-D19A-4F4AE377D38A">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:25:38 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="B92E3DD4-C390-A9A1-F89B-F22AF109FCCF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vrednost_nagrade" id="DD7015A3-019C-95AB-CA6B-E5C6D6A8A899">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:26:00 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="B92E3DD4-C390-A9A1-F89B-F22AF109FCCF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_vozila" id="267D1295-D7C7-6412-82F9-B67CFF29C189">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:26:34 UTC</createdTime>
+<generatorID>15A3DF9D-AB81-B433-C801-7C386485910E</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="B92E3DD4-C390-A9A1-F89B-F22AF109FCCF" value="true"/>
+</engineerTo>
+<referedAttribute>9FFEB0BF-2F47-690F-D991-91C85E7AD515</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_osobe" id="55F6F352-ECF4-D81C-64C7-EC30DFDFC71B">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:26:34 UTC</createdTime>
+<generatorID>15A3DF9D-AB81-B433-C801-7C386485910E</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="B92E3DD4-C390-A9A1-F89B-F22AF109FCCF" value="true"/>
+</engineerTo>
+<referedAttribute>5A9FA3E3-9B9B-9E56-B72E-7C9F747EF773</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_izlozbe_vozila" id="8B40D1A7-622E-6DD8-7950-693E8832BB45">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:26:34 UTC</createdTime>
+<generatorID>15A3DF9D-AB81-B433-C801-7C386485910E</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="B92E3DD4-C390-A9A1-F89B-F22AF109FCCF" value="true"/>
+</engineerTo>
+<referedAttribute>043236C5-7BA3-344F-CAE7-2649FACC49FD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F39F41EA-0441-C351-5A6E-FBD934CA2C4D" name="Nagrada PK">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:25:36 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="B92E3DD4-C390-A9A1-F89B-F22AF109FCCF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5F73DDDD-BBA8-D8D2-7E5F-75E9020A3D17</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

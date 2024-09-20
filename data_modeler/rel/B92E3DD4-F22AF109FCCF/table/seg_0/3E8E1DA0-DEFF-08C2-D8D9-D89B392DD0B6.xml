@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3E8E1DA0-DEFF-08C2-D8D9-D89B392DD0B6" name="Nagrada">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>606D8745-A072-D2D1-628A-A5FA594C2A6C</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_nagrade" id="5921ED56-B284-BAAC-1EF5-CB657C7E17B6">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>5F73DDDD-BBA8-D8D2-7E5F-75E9020A3D17</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv_nagrade" id="3323AFE2-3F22-B875-DCE7-BC9B413F407E">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>F5B9F394-2A0F-BCCF-D19A-4F4AE377D38A</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vrednost_nagrade" id="53940DDB-C0BA-9201-A653-AAD7B23CFBC5">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>DD7015A3-019C-95AB-CA6B-E5C6D6A8A899</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_vozila" id="497F675D-BD3A-A991-DCBF-7E8F0B6D0072">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>267D1295-D7C7-6412-82F9-B67CFF29C189</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CCAFC62C-FE1C-FD00-93DE-466EBD92D05E" referredColumn="531B79DB-A8F9-30B7-7D3E-80ECAD6D326F"/>
+</associations>
+</Column>
+<Column name="id_osobe" id="D2399296-11DF-7644-B4BF-1DDFAB743853">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>55F6F352-ECF4-D81C-64C7-EC30DFDFC71B</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CCAFC62C-FE1C-FD00-93DE-466EBD92D05E" referredColumn="568C512F-E592-AC8C-DE6A-5A2846ADDD5C"/>
+</associations>
+</Column>
+<Column name="id_izlozbe_vozila" id="C04127A5-3C47-2202-3A86-6B54F775AEEA">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>8B40D1A7-622E-6DD8-7950-693E8832BB45</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CCAFC62C-FE1C-FD00-93DE-466EBD92D05E" referredColumn="9A2F7BCE-EC8E-D42F-9AA7-807FAE5AE106"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C92B2D48-C6BA-482C-7CA5-DC34A31C37A6" name="Nagrada_PK">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>F39F41EA-0441-C351-5A6E-FBD934CA2C4D</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5921ED56-B284-BAAC-1EF5-CB657C7E17B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BAE3B8F4-5370-6165-1573-8E751EDF2545" name="Nagrada_ucestvuje_FK">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>15A3DF9D-AB81-B433-C801-7C386485910E</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="497F675D-BD3A-A991-DCBF-7E8F0B6D0072"/>
+<colUsage columnID="D2399296-11DF-7644-B4BF-1DDFAB743853"/>
+<colUsage columnID="C04127A5-3C47-2202-3A86-6B54F775AEEA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

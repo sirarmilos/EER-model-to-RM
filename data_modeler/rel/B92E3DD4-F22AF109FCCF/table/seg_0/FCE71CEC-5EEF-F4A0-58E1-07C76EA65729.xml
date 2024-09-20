@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FCE71CEC-5EEF-F4A0-58E1-07C76EA65729" name="sacinjava">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_diorame" id="BB4B661A-B9D3-3549-F5E0-3D66A275EE18">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42B39BC3-478A-64AE-F150-172AC4748E54" referredColumn="067763AF-6ADC-5D16-1DDC-BDCBDAAAD292"/>
+</associations>
+</Column>
+<Column name="id_kolekcije" id="49A372C1-52C2-8850-6127-B6695EFDFF0D">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4604EE1-22D2-ABE3-6DD7-504C9A16ACBC" referredColumn="D68B75F4-426B-1AF4-3981-D5F195258CA7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D1D5107-B5D2-9209-32C1-865B7A9E2E28" name="sacinjava_PK">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB4B661A-B9D3-3549-F5E0-3D66A275EE18"/>
+<colUsage columnID="49A372C1-52C2-8850-6127-B6695EFDFF0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CDBC4371-55F8-D9E4-FE1E-E0B5B04CEC91" name="sacinjava_Diorama_FK">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>6CECB6E5-5391-EF92-C4AC-39B77D0E10A1</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB4B661A-B9D3-3549-F5E0-3D66A275EE18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="56A99658-1377-99DC-1715-51745921D5F9" name="sacinjava_Kolekcija_vozila_FK">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>6CECB6E5-5391-EF92-C4AC-39B77D0E10A1</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49A372C1-52C2-8850-6127-B6695EFDFF0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

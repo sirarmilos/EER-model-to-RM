@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8965DD41-2748-AD37-136A-52533A2855C0" name="poseduje">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>71B52168-77AD-F3D4-2DB6-7F6AA1E85E44</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_vozila" id="E17649F5-DC4E-DA87-EDDA-A2C9AEE9CE19">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>322CA5DA-2B0F-5D80-C43C-FF06564D94A2</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C476C5C-D07C-A9FE-2FF7-053D1CAC2E43" referredColumn="D357E622-4295-8A14-1103-EC478045381A"/>
+</associations>
+</Column>
+<Column name="id_osobe" id="CF63038A-1A39-EC27-D8A6-DCEBCD115FA1">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>D9A9F131-2023-1070-0828-4CF727D8842B</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A23B3E4E-604D-1DCA-5489-C0E2A277ECA4" referredColumn="3AEE669E-4E26-6ACB-3F7E-AAEAD2E003D8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D8B1326E-6548-2157-24C8-84E4F75BFC92" name="poseduje_PK">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>AC37564E-805C-8CC6-B119-54A3B41F13DD</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E17649F5-DC4E-DA87-EDDA-A2C9AEE9CE19"/>
+<colUsage columnID="CF63038A-1A39-EC27-D8A6-DCEBCD115FA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E45AE6FA-05A9-152E-17CA-C17013555792" name="poseduje_Osoba_FK">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>268D2CC5-F08E-C73C-38E4-8B5C75DFFFBC</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF63038A-1A39-EC27-D8A6-DCEBCD115FA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A301265F-4A75-DC76-D939-D91BD38485D2" name="poseduje_Vozilo_FK">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>7D30F6D9-8E12-F2A1-A774-343AE2809640</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E17649F5-DC4E-DA87-EDDA-A2C9AEE9CE19"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="61956DA1-A81D-DA3E-80A5-2525898C4AF9" name="ucestvuje">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>1EA1C770-D672-E3BF-BC56-E4B6AA82A168</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_vozila" id="531B79DB-A8F9-30B7-7D3E-80ECAD6D326F">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>9FFEB0BF-2F47-690F-D991-91C85E7AD515</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA2A9CB9-BEF8-09CF-E61A-27A3239FB520" referredColumn="E17649F5-DC4E-DA87-EDDA-A2C9AEE9CE19"/>
+</associations>
+</Column>
+<Column name="id_osobe" id="568C512F-E592-AC8C-DE6A-5A2846ADDD5C">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>5A9FA3E3-9B9B-9E56-B72E-7C9F747EF773</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA2A9CB9-BEF8-09CF-E61A-27A3239FB520" referredColumn="CF63038A-1A39-EC27-D8A6-DCEBCD115FA1"/>
+</associations>
+</Column>
+<Column name="id_izlozbe_vozila" id="9A2F7BCE-EC8E-D42F-9AA7-807FAE5AE106">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>043236C5-7BA3-344F-CAE7-2649FACC49FD</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7FA2C2D-2C87-5B3E-5826-F7B55BE28F1D" referredColumn="947590E3-C139-95C1-B51C-A3DF2907FF50"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4CCBBF73-CA71-5C7F-A6BB-2F9E11D14CB7" name="ucestvuje_PK">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>69043E0F-9A45-AFEF-1896-9EB5731ABF3A</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="531B79DB-A8F9-30B7-7D3E-80ECAD6D326F"/>
+<colUsage columnID="568C512F-E592-AC8C-DE6A-5A2846ADDD5C"/>
+<colUsage columnID="9A2F7BCE-EC8E-D42F-9AA7-807FAE5AE106"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E10D9D96-D8D7-CCBC-6306-84BE248222DF" name="ucestvuje_poseduje_FK">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>B5014661-96FE-4298-BC40-61211210841A</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="531B79DB-A8F9-30B7-7D3E-80ECAD6D326F"/>
+<colUsage columnID="568C512F-E592-AC8C-DE6A-5A2846ADDD5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C66B4751-E420-4062-35C9-AA0FB648CC6E" name="ucestvuje_Izlozba_vozila_FK">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>E07EA18F-6F76-DC27-40DF-40816A017F34</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A2F7BCE-EC8E-D42F-9AA7-807FAE5AE106"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

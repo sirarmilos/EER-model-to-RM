@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="62DEF01C-6643-96B5-F25C-BD687F1C8984" name="Kamion">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>922B146E-138A-138C-C254-E9A6BF1F7656</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_vozila" id="A1CCAA75-30A6-ECF3-4910-B5AC1AEE946E">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>A0A1BC40-5B36-3255-B5F0-9BE1F154525A</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C9FE0A4-B391-F07B-D6BB-91501943B203" referredColumn="D357E622-4295-8A14-1103-EC478045381A"/>
+</associations>
+</Column>
+<Column name="prikolica" id="F60768E3-6243-C1E0-BBB0-16BF0F8F65D0">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>FF6D0813-C378-BEE4-4F80-0FEB72401575</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="424A45AE-651A-0472-86E6-551D35864E46" name="Kamion_PK">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>8D26F9B4-95A9-5D74-FEA8-D4B456B20B58</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1CCAA75-30A6-ECF3-4910-B5AC1AEE946E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37876FC9-8D2E-E3B0-5C45-5CC536644540" name="Kamion_Vozilo_FK">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>79CE4F1A-C4CB-4C45-03DA-134E61A9B6CB</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1CCAA75-30A6-ECF3-4910-B5AC1AEE946E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

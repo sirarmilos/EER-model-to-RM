@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B98E9C10-EEC7-D446-0FB7-B6ECE71EFB68" name="Slicica">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 00:47:27 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="B92E3DD4-C390-A9A1-F89B-F22AF109FCCF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_slicice" id="CA4BB66F-D36D-278A-ECC2-D2DB0A0F5E19">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 00:47:35 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="B92E3DD4-C390-A9A1-F89B-F22AF109FCCF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv_slicice" id="807E15B1-AF03-0FAC-01ED-B48A6E7C4ABA">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 00:47:52 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="B92E3DD4-C390-A9A1-F89B-F22AF109FCCF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="opis_slicice" id="BE02B934-FF57-BB3B-F3E0-A8F16030E9FA">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 00:48:10 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="B92E3DD4-C390-A9A1-F89B-F22AF109FCCF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_albuma" id="7A7D718A-3843-DCE6-1E15-D4DD257CCFA8">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 00:48:42 UTC</createdTime>
+<generatorID>75B55098-9D2D-3BA9-E4DA-960DFA511577</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="B92E3DD4-C390-A9A1-F89B-F22AF109FCCF" value="true"/>
+</engineerTo>
+<referedAttribute>882F0BB5-75A9-B377-0F13-42B201B5515B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="04446611-A8D0-EF0B-5599-3A1049E8D2B6" name="Slicica PK">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 00:47:45 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="B92E3DD4-C390-A9A1-F89B-F22AF109FCCF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CA4BB66F-D36D-278A-ECC2-D2DB0A0F5E19</attributeRef>
+<attributeRef>7A7D718A-3843-DCE6-1E15-D4DD257CCFA8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

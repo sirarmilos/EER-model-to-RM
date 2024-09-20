@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2E16F83F-E617-D857-8127-CABE3FFCB718" containerWithKeyObject="875140C9-3ECA-489F-9FE8-58C67349C667" localFKIndex="952E7C50-995E-DC7C-D988-B21A554EA77D" name="Automobil_Vozilo_FK">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>8983ED19-A994-EC5F-4DBE-2C5331AA8657</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<referredTableLongName>Vozilo</referredTableLongName>
+<arc>76F5053F-0DC9-4EF4-FE18-B8EEE9978E7D</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>749AFB76-7CD4-479E-37A2-B20EF9058050</referredTableID>
+<keyObject>C71DEE9C-C4F5-41B8-442C-FA62EF502E3B</keyObject>
+<referredKeyID>C71DEE9C-C4F5-41B8-442C-FA62EF502E3B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_vozila</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

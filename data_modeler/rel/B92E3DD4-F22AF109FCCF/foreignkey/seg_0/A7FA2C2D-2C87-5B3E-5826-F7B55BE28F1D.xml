@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A7FA2C2D-2C87-5B3E-5826-F7B55BE28F1D" containerWithKeyObject="61956DA1-A81D-DA3E-80A5-2525898C4AF9" localFKIndex="C66B4751-E420-4062-35C9-AA0FB648CC6E" name="ucestvuje_Izlozba_vozila_FK">
+<createdBy>MilosPC</createdBy>
+<createdTime>2024-01-15 01:30:59 UTC</createdTime>
+<generatorID>E07EA18F-6F76-DC27-40DF-40816A017F34</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<referredTableLongName>Izlozba_vozila</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9C852401-4F1A-9B8D-7550-509DF1ED7663</referredTableID>
+<keyObject>CD8C957B-7D6A-6A5B-763A-A34A695A255D</keyObject>
+<referredKeyID>CD8C957B-7D6A-6A5B-763A-A34A695A255D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_izlozbe_vozila</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
